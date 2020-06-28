@@ -3,16 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NodeuiComponent } from './nodeui/nodeui.component';
+import { PathfinderService } from './pathfinder.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NodeuiComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    PathfinderService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
