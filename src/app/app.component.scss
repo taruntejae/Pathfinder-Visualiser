@@ -73,7 +73,7 @@
 .wall {
   // background-color: #0c3546;
   // background-image: url("../assets/images/brick-wall-flat.svg");
-  background-color: #10375c;
+  background-color: #1d3557;
   background-size: contain;
   animation-name: wallAnimation;
   animation-duration: 0.5s;
@@ -137,7 +137,7 @@
 }
 @keyframes visitedAnimation {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.3);
     background-color: rgba(0, 0, 66, 0.8);
     border-radius: 100%;
   }
