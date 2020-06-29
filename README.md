@@ -1,5 +1,9 @@
 # Path Finder Visualiser
 
+## Demo
+
+![Path Finder Visualiser](demo/BFS_Demo.gif)
+
 ## Description
 
 This application is for visualising few well known path-finding algorithms e.g. Breadth-first Search, Dijkstra's algorithm. We can add walls to the grid which works as no-pass nodes.
