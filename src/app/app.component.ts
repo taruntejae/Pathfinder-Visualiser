@@ -109,6 +109,10 @@ export class AppComponent {
   }
 
   public clean() {
+    this.timeouts.forEach((kTimer) => {
+      clearTimeout(kTimer);
+    });
+    this.timeouts.length = 0;
     this.grid = this.generateGrid();
     this.setSourceAndTarget();
     this.mousePressSubject.next(false);
